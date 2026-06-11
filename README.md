@@ -29,14 +29,7 @@
 </div>
 
 ## Overview
-SafeDF is an online monocular safe-control pipeline that reconstructs a semantic distance field from RGB input and uses it inside a CBF-QP safety filter. The system fuses dense MASt3R-SLAM geometry with temporally stabilized EfficientViT semantics, builds a local TSDF/ESDF representation, and applies semantic-dependent safety margins before control.
-
-This repository is the official implementation of
-[Embedding Semantic Risk into Distance Fields and CBFs for Online Monocular Safe Control](https://arxiv.org/abs/2606.01605).
-
-The release contains the code path for semantic-aware ESDF reconstruction,
-visualization, LIMO/ZMQ streaming, and the benchmark reproduction artifacts used
-for the paper tables.
+SafeDF is an online monocular perception-to-control framework that embeds semantic risk into the distance field used by Control Barrier Function (CBF)-based safe navigation and teleoperation. From RGB video, a foundation-model-based SLAM front end reconstructs dense 3-D geometry, while semantic observations are fused into the reconstructed scene. The resulting geometric-semantic representation is converted into a semantic-aware ESDF, where semantic labels identify safety-relevant regions and impose class-dependent inflation before field computation.
 
 ## Repository Layout
 ```text
@@ -182,11 +175,10 @@ STREAM_IMG_SIZE=512 TSDF_VOXEL_M=0.025 \
 ```
 
 ## Simulation Benchmark
-The paper evaluates SaferSplat, Ours (ESDF), and Ours (Semantic ESDF)
-on a six-scene ScanNet++ benchmark with matched object-centric trajectories.
-The benchmark has three stages: build the scene representations, generate the
-matched object-centric trajectory set, then run and aggregate the controller
-rollouts.
+The simulation benchmark runs SafeDF on a six-scene ScanNet++ benchmark with
+matched object-centric trajectories. The released pipeline reconstructs the
+semantic ESDF snapshots, generates the matched trajectory set, and evaluates
+the ESDF and semantic-aware ESDF controllers.
 
 Set the common paths first:
 
@@ -197,7 +189,6 @@ CBF_ROOT=${SAFERSPLAT_ROOT}/cbfcontrol/safer-splat
 DATA_ROOT=/path/to/scannetpp/data
 RISK_OUT=${MAST3R_ROOT}/outputs/semantic_risk_groups_balanced
 PAIR_ROOT=${SAFERSPLAT_ROOT}/trajs_local/success6_object_ring_eval
-GS_OUT=${SAFERSPLAT_ROOT}/trajs_local/success6_3dgs_goal_eqtime_matchbalanced_50x3_clear20
 SCENES=(281bc17764 689fec23d7 7cd2ac43b4 8a20d62ac0 b26e64c4b0 bc03d88fc3)
 ```
 
@@ -224,25 +215,6 @@ for SCENE in "${SCENES[@]}"; do
     --planning_tsdf_use_semantic \
     --planning_tsdf_semantic_band_m 0.1
 done
-```
-
-Train the SaferSplat/3DGS scene representations and select equal-time
-checkpoints using the ESDF reconstruction time budget:
-
-```bash
-conda activate safersplat
-bash ${SAFERSPLAT_ROOT}/scripts/train_scannetpp_iphone_3dgs_success6.sh
-```
-
-The equal-time checkpoints used for the reported table are:
-
-```text
-281bc17764  run=2026-04-01_233539  step=7085
-689fec23d7  run=2026-04-01_231403  step=8357
-7cd2ac43b4  run=2026-04-01_230456  step=7000
-8a20d62ac0  run=2026-04-01_232128  step=5520
-b26e64c4b0  run=2026-04-01_232837  step=6779
-bc03d88fc3  run=2026-04-01_225814  step=9527
 ```
 
 Export scene-specific semantic risk groups:
@@ -384,36 +356,10 @@ for SCENE in "${SCENES[@]}"; do
 done
 ```
 
-Run the SaferSplat CBF baseline on the same matched trajectories and
-equal-time 3DGS checkpoints:
-
-```bash
-conda activate safersplat
-bash ${SAFERSPLAT_ROOT}/scripts/run_scannetpp_success6_3dgs_matchbalanced_clear20.sh
-```
-
-Aggregate the final benchmark tables:
-
-```bash
-conda activate safersplat
-bash ${SAFERSPLAT_ROOT}/scripts/aggregate_success6_3methods.sh
-```
-
-The released table artifacts are stored in:
+The rollout summaries are written to:
 
 ```text
-repro/table_metrics/
-```
-
-If rollouts have already been generated, the final table metrics can also be
-recomputed directly with:
-
-```bash
-python scripts/recompute_paper_tables_from_rollouts.py \
-  --gs-rollout-dir /path/to/safer_splat_rollouts \
-  --esdf-rollout-dir /path/to/esdf_rollouts \
-  --scannetpp-data-root /path/to/scannetpp/data \
-  --out-dir repro/recomputed_tables
+${PAIR_ROOT}/summaries/
 ```
 
 ## Hardware Streaming
@@ -446,9 +392,6 @@ prioritizing reconstruction quality over online speed. The robot-side ROS/ZMQ
 bridge and controller parameters are deployment-specific; this repository
 exposes the reconstruction and semantic ESDF side used by the hardware
 experiments.
-
-## Paper
-[Embedding Semantic Risk into Distance Fields and CBFs for Online Monocular Safe Control](https://arxiv.org/abs/2606.01605)
 
 ## BibTeX
 ```bibtex
