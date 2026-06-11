@@ -175,12 +175,19 @@ def main() -> int:
         default=Path("repro/table_metrics"),
         help="Directory containing the released six-scene metric CSV files.",
     )
+    parser.add_argument(
+        "--ours-only",
+        action="store_true",
+        help="Print only the SafeDF ESDF and semantic-aware ESDF rows.",
+    )
     parser.add_argument("--save-latex", type=Path, default=None)
     parser.add_argument("--no-validate", action="store_true")
     args = parser.parse_args()
 
     table_i = build_table_i(args.table_dir)
     table_iii = build_table_iii(args.table_dir)
+    if args.ours_only:
+        table_i = [row for row in table_i if row[0] != "SaferSplat"]
 
     print("Table I: released CSV check")
     print(
@@ -208,7 +215,7 @@ def main() -> int:
     )
 
     if not args.no_validate:
-        validate(table_i, table_iii)
+        validate(build_table_i(args.table_dir), table_iii)
         print("\nValidation: released CSV rounded values match the paper tables.")
 
     if args.save_latex is not None:
