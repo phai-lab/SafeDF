@@ -1,8 +1,6 @@
 <div align="center">
 
-# SafeDF
-
-### Embedding Semantic Risk into Distance Fields and CBFs for Online Monocular Safe Control
+# Embedding Semantic Risk into Distance Fields and CBFs for Online Monocular Safe Control
 
 <p>
   <a href="https://safedf.github.io/index.html"><img src="https://img.shields.io/badge/Project-Page-6f42c1" alt="Project Page"></a>
