@@ -1,0 +1,1284 @@
+raw_label,scene_count,seg_group_count,ade20k_class,ade20k_id,mapping_status,note
+3d printer,2,10,,,unmapped,no safe ADE20K match
+REMOVE,55,195,,,ignored,meta / non-semantic label
+SPLIT,98,304,,,ignored,meta / non-semantic label
+ac system,1,1,,,unmapped,no safe ADE20K match
+action figure,1,1,,,unmapped,no safe ADE20K match
+air conditioner,7,7,,,unmapped,no safe ADE20K match
+air conditioner tower,1,2,,,unmapped,no safe ADE20K match
+air conditioning,2,2,,,unmapped,no safe ADE20K match
+air duct,9,16,,,unmapped,no safe ADE20K match
+air fryer,4,4,,,unmapped,no safe ADE20K match
+air pipe,1,3,,,unmapped,no safe ADE20K match
+air purifier,4,4,,,unmapped,no safe ADE20K match
+air vent,11,17,,,unmapped,no safe ADE20K match
+air vent pipe,1,2,,,unmapped,no safe ADE20K match
+alarm,2,2,,,unmapped,no safe ADE20K match
+anti splatter shield,1,1,,,unmapped,no safe ADE20K match
+apple,3,8,,,unmapped,no safe ADE20K match
+apples,1,1,,,unmapped,no safe ADE20K match
+appliance,1,3,,,unmapped,no safe ADE20K match
+apron,1,1,,,unmapped,no safe ADE20K match
+arch folder,1,3,,,unmapped,no safe ADE20K match
+armchair,3,12,armchair,30,exact,exact normalized match
+ashtray,1,1,,,unmapped,no safe ADE20K match
+baby stroller,1,1,,,unmapped,no safe ADE20K match
+babyfoot table,1,1,,,unmapped,no safe ADE20K match
+backdrop,1,1,,,unmapped,no safe ADE20K match
+backdrop hook,1,2,,,unmapped,no safe ADE20K match
+backpack,53,74,bag,115,alias,manual alias: backpack -> bag
+badminton racket,1,1,,,unmapped,no safe ADE20K match
+bag,69,160,bag,115,exact,exact normalized match
+bag/duffle bag,1,1,,,unmapped,no safe ADE20K match
+bag/laptop bag,1,1,,,unmapped,no safe ADE20K match
+bagpack,2,2,,,unmapped,no safe ADE20K match
+bags,2,2,bag,115,plural,plural -> singular exact match
+balcony door,1,1,door,14,rule,token rule -> door
+ball,5,5,ball,119,exact,exact normalized match
+balnket,1,1,,,unmapped,no safe ADE20K match
+banana,5,6,,,unmapped,no safe ADE20K match
+bananas,4,4,,,unmapped,no safe ADE20K match
+banner,2,3,,,unmapped,no safe ADE20K match
+bar,2,2,bar,77,exact,exact normalized match
+bar counter,1,1,counter,45,rule,token rule -> counter
+barbell,1,1,,,unmapped,no safe ADE20K match
+barrel,2,4,barrel,111,exact,exact normalized match
+barstool,1,1,,,unmapped,no safe ADE20K match
+baseboard,2,8,,,unmapped,no safe ADE20K match
+basket,24,50,basket,112,exact,exact normalized match
+basketball,1,1,,,unmapped,no safe ADE20K match
+bath cabinet,2,2,cabinet,10,rule,token rule -> cabinet
+bath counter,2,2,counter,45,rule,token rule -> counter
+bath tub,2,2,,,unmapped,no safe ADE20K match
+bathroom cabinet,6,6,cabinet,10,alias,manual alias: bathroom cabinet -> cabinet
+bathroom cabinet/bathroom counter,1,1,cabinet,10,rule,token rule -> cabinet
+bathroom counter,3,3,counter,45,rule,token rule -> counter
+bathroom floor,2,3,,,unmapped,no safe ADE20K match
+bathroom holder,1,4,,,unmapped,no safe ADE20K match
+bathroom shelf,2,3,shelf,24,rule,token rule -> shelf
+bathroom sink,1,1,,,unmapped,no safe ADE20K match
+bathtub,7,7,bathtub,37,exact,exact normalized match
+bathtub tray,1,1,,,unmapped,no safe ADE20K match
+beach chair,1,1,chair,19,rule,token rule -> chair
+beach umbrella,1,1,,,unmapped,no safe ADE20K match
+beaker stand,1,1,,,unmapped,no safe ADE20K match
+beam,9,13,,,unmapped,no safe ADE20K match
+bean bag,2,2,,,unmapped,no safe ADE20K match
+beanbag,1,1,,,unmapped,no safe ADE20K match
+bed,40,44,bed,7,exact,exact normalized match
+bed  sheet,1,1,,,unmapped,no safe ADE20K match
+bed cover,1,1,,,unmapped,no safe ADE20K match
+bed frame,3,4,,,unmapped,no safe ADE20K match
+bedframe,1,1,,,unmapped,no safe ADE20K match
+bedisde table,1,1,,,unmapped,no safe ADE20K match
+bedpost,1,1,,,unmapped,no safe ADE20K match
+bedsheet,3,3,,,unmapped,no safe ADE20K match
+bedside lamp,2,3,lamp,36,rule,token rule -> lamp
+bedside shelf,1,1,shelf,24,rule,token rule -> shelf
+bedside table,8,12,,,unmapped,no safe ADE20K match
+belt,2,2,,,unmapped,no safe ADE20K match
+bench,6,7,bench,69,exact,exact normalized match
+bench stool,1,1,,,unmapped,no safe ADE20K match
+beverage can,1,1,,,unmapped,no safe ADE20K match
+beverage crate,3,29,,,unmapped,no safe ADE20K match
+beverage crates,1,2,,,unmapped,no safe ADE20K match
+bicycle,1,1,bicycle,127,exact,exact normalized match
+bin,18,27,ashcan,138,alias,manual alias: bin -> ashcan
+binder,9,17,,,unmapped,no safe ADE20K match
+binding machine,1,1,,,unmapped,no safe ADE20K match
+blackboard,4,9,,,unmapped,no safe ADE20K match
+bladeless fan,1,1,,,unmapped,no safe ADE20K match
+blanket,41,58,blanket,131,exact,exact normalized match
+blender,1,2,,,unmapped,no safe ADE20K match
+blind,2,4,blind,63,exact,exact normalized match
+blind rail,16,16,,,unmapped,no safe ADE20K match
+blind rails,1,1,,,unmapped,no safe ADE20K match
+blind rod,1,1,,,unmapped,no safe ADE20K match
+blinds,85,136,blind,63,plural,plural -> singular exact match
+blinds chain,1,1,,,unmapped,no safe ADE20K match
+blinds rod,2,2,,,unmapped,no safe ADE20K match
+board,15,22,bulletin board,144,alias,manual alias: board -> bulletin board
+body weight scale,1,1,,,unmapped,no safe ADE20K match
+boiler,2,2,,,unmapped,no safe ADE20K match
+book,78,558,book,67,exact,exact normalized match
+book shelf,1,1,shelf,24,rule,token rule -> shelf
+books,52,307,book,67,plural,plural -> singular exact match
+bookshelf,60,103,bookcase,62,alias,manual alias: bookshelf -> bookcase
+boot,1,2,,,unmapped,no safe ADE20K match
+boots,6,6,,,unmapped,no safe ADE20K match
+bottle,109,405,bottle,98,exact,exact normalized match
+bottle carrier,1,1,,,unmapped,no safe ADE20K match
+bottles,8,13,,,unmapped,no safe ADE20K match
+bowl,20,25,,,unmapped,no safe ADE20K match
+box,146,1101,box,41,exact,exact normalized match
+boxes,2,2,box,41,plural,plural -> singular exact match
+bread,1,1,,,unmapped,no safe ADE20K match
+bread toaster,1,1,,,unmapped,no safe ADE20K match
+brick wall,1,3,,,unmapped,no safe ADE20K match
+brief,2,2,,,unmapped,no safe ADE20K match
+brief case,1,1,,,unmapped,no safe ADE20K match
+briefcase,5,5,,,unmapped,no safe ADE20K match
+broom,11,12,,,unmapped,no safe ADE20K match
+brush,3,3,,,unmapped,no safe ADE20K match
+brushes,1,3,,,unmapped,no safe ADE20K match
+bucket,28,53,,,unmapped,no safe ADE20K match
+bukcet,1,1,,,unmapped,no safe ADE20K match
+bulletin board,2,2,bulletin board,144,exact,exact normalized match
+bullettin boards,1,1,,,unmapped,no safe ADE20K match
+bunny decoration,1,1,,,unmapped,no safe ADE20K match
+cabel,1,1,,,unmapped,no safe ADE20K match
+cabinet,147,401,cabinet,10,exact,exact normalized match
+cabinet base panel,1,1,cabinet,10,rule,token rule -> cabinet
+cabinet frame,1,1,cabinet,10,rule,token rule -> cabinet
+cabinet side panel,1,1,cabinet,10,rule,token rule -> cabinet
+cable,16,30,,,unmapped,no safe ADE20K match
+cable conduit,1,4,,,unmapped,no safe ADE20K match
+cable duct,3,3,,,unmapped,no safe ADE20K match
+cable pathway,1,3,,,unmapped,no safe ADE20K match
+cable raceway,1,5,,,unmapped,no safe ADE20K match
+cable roller,1,1,,,unmapped,no safe ADE20K match
+cable spool,1,2,,,unmapped,no safe ADE20K match
+cable tray,12,22,,,unmapped,no safe ADE20K match
+cables,8,16,,,unmapped,no safe ADE20K match
+cactus,1,1,,,unmapped,no safe ADE20K match
+calculator,5,5,,,unmapped,no safe ADE20K match
+calendar,8,8,,,unmapped,no safe ADE20K match
+camera,3,3,,,unmapped,no safe ADE20K match
+camera bag,1,1,,,unmapped,no safe ADE20K match
+can,7,14,,,unmapped,no safe ADE20K match
+candle,5,9,,,unmapped,no safe ADE20K match
+candle holder,1,2,,,unmapped,no safe ADE20K match
+canister,1,7,,,unmapped,no safe ADE20K match
+canvas,1,1,,,unmapped,no safe ADE20K match
+cap,5,5,,,unmapped,no safe ADE20K match
+carboard box,1,1,,,unmapped,no safe ADE20K match
+card,1,1,,,unmapped,no safe ADE20K match
+card reader,2,2,,,unmapped,no safe ADE20K match
+cardboard,6,10,,,unmapped,no safe ADE20K match
+cardboard box,16,48,,,unmapped,no safe ADE20K match
+cardboards,1,5,,,unmapped,no safe ADE20K match
+cards,1,2,,,unmapped,no safe ADE20K match
+carpet,11,13,,,unmapped,no safe ADE20K match
+cart,2,4,,,unmapped,no safe ADE20K match
+carton,1,3,,,unmapped,no safe ADE20K match
+case,2,2,case,55,exact,exact normalized match
+cat bed,1,1,,,unmapped,no safe ADE20K match
+caution board,1,1,,,unmapped,no safe ADE20K match
+cd,2,2,,,unmapped,no safe ADE20K match
+cd player,1,1,,,unmapped,no safe ADE20K match
+ceiilng lamp,1,1,lamp,36,rule,token rule -> lamp
+ceiling,210,326,ceiling,5,exact,exact normalized match
+ceiling beam,8,8,,,unmapped,no safe ADE20K match
+ceiling cables,1,1,,,unmapped,no safe ADE20K match
+ceiling fan,3,4,,,unmapped,no safe ADE20K match
+ceiling lamp,142,479,lamp,36,alias,manual alias: ceiling lamp -> lamp
+ceiling lamps,1,2,lamp,36,rule,token rule -> lamp
+ceiling light,62,251,light,82,alias,manual alias: ceiling light -> light
+ceiling lights,3,6,,,unmapped,no safe ADE20K match
+ceiling lmap,1,1,,,unmapped,no safe ADE20K match
+ceiling pipe,5,10,,,unmapped,no safe ADE20K match
+ceiling vent,4,9,,,unmapped,no safe ADE20K match
+ceiling ventilator,2,5,,,unmapped,no safe ADE20K match
+ceilng lamp bar,1,1,lamp,36,rule,token rule -> lamp
+centre table,1,1,,,unmapped,no safe ADE20K match
+centrifuge,1,1,,,unmapped,no safe ADE20K match
+chain,1,1,,,unmapped,no safe ADE20K match
+chair,145,694,chair,19,exact,exact normalized match
+chairs,2,3,chair,19,plural,plural -> singular exact match
+chandelier,1,1,chandelier,85,exact,exact normalized match
+charger,6,7,,,unmapped,no safe ADE20K match
+chart,1,1,,,unmapped,no safe ADE20K match
+chemical bottle,1,2,,,unmapped,no safe ADE20K match
+chemical container,1,2,,,unmapped,no safe ADE20K match
+chopping board,4,4,,,unmapped,no safe ADE20K match
+chrismas tree,1,1,,,unmapped,no safe ADE20K match
+christmas tree,1,1,,,unmapped,no safe ADE20K match
+circuit box,1,1,,,unmapped,no safe ADE20K match
+circular tray,1,1,,,unmapped,no safe ADE20K match
+citrus juicer,1,1,,,unmapped,no safe ADE20K match
+cleaning mop,1,1,,,unmapped,no safe ADE20K match
+cleaning product,1,4,,,unmapped,no safe ADE20K match
+cleaning trolley,1,1,,,unmapped,no safe ADE20K match
+clock,15,16,clock,148,exact,exact normalized match
+closet,3,6,,,unmapped,no safe ADE20K match
+closet rail,1,1,,,unmapped,no safe ADE20K match
+cloth,26,35,,,unmapped,no safe ADE20K match
+cloth hanger,5,7,,,unmapped,no safe ADE20K match
+cloth hangers,1,4,,,unmapped,no safe ADE20K match
+cloth rack,1,1,,,unmapped,no safe ADE20K match
+clothe,1,1,,,unmapped,no safe ADE20K match
+clothes,19,50,,,unmapped,no safe ADE20K match
+clothes dryer,2,2,,,unmapped,no safe ADE20K match
+clothes drying stand,1,1,,,unmapped,no safe ADE20K match
+clothes hanger,13,13,,,unmapped,no safe ADE20K match
+clothes hangers,1,1,,,unmapped,no safe ADE20K match
+clothes rail,1,1,,,unmapped,no safe ADE20K match
+cloths,1,2,,,unmapped,no safe ADE20K match
+co detector,1,1,,,unmapped,no safe ADE20K match
+coarser,1,1,,,unmapped,no safe ADE20K match
+coaster,4,5,,,unmapped,no safe ADE20K match
+coasters,1,1,,,unmapped,no safe ADE20K match
+coat,11,29,,,unmapped,no safe ADE20K match
+coat hanger,11,11,,,unmapped,no safe ADE20K match
+coat rack,6,7,,,unmapped,no safe ADE20K match
+coat stand,4,4,,,unmapped,no safe ADE20K match
+coax outlet,1,1,,,unmapped,no safe ADE20K match
+coffee machine,9,14,,,unmapped,no safe ADE20K match
+coffee maker,5,5,,,unmapped,no safe ADE20K match
+coffee mug,1,1,,,unmapped,no safe ADE20K match
+coffee packets,1,1,,,unmapped,no safe ADE20K match
+coffee table,10,11,coffee table,64,exact,exact normalized match
+column,2,2,column,42,exact,exact normalized match
+comb,1,1,,,unmapped,no safe ADE20K match
+comforter,1,2,,,unmapped,no safe ADE20K match
+compressor,1,2,,,unmapped,no safe ADE20K match
+computer,2,2,computer,74,exact,exact normalized match
+computer camera,1,1,,,unmapped,no safe ADE20K match
+computer desk,2,2,,,unmapped,no safe ADE20K match
+computer table,1,1,,,unmapped,no safe ADE20K match
+computer towe,1,1,,,unmapped,no safe ADE20K match
+computer tower,51,176,computer,74,alias,manual alias: computer tower -> computer
+condiments,1,1,,,unmapped,no safe ADE20K match
+cone,2,2,,,unmapped,no safe ADE20K match
+conference table,1,1,,,unmapped,no safe ADE20K match
+console,1,1,,,unmapped,no safe ADE20K match
+construction materials,1,1,,,unmapped,no safe ADE20K match
+container,10,31,,,unmapped,no safe ADE20K match
+control panel,4,9,,,unmapped,no safe ADE20K match
+control switch,1,2,,,unmapped,no safe ADE20K match
+control unit,1,1,,,unmapped,no safe ADE20K match
+cooking pan,1,3,,,unmapped,no safe ADE20K match
+cooking pot,3,3,,,unmapped,no safe ADE20K match
+cooling pad,1,1,,,unmapped,no safe ADE20K match
+copmuter tower,3,4,,,unmapped,no safe ADE20K match
+cord,1,1,,,unmapped,no safe ADE20K match
+cord cover,1,5,,,unmapped,no safe ADE20K match
+cosmetic bag,1,1,,,unmapped,no safe ADE20K match
+cosmetic bottle,2,3,,,unmapped,no safe ADE20K match
+cosmetic tube,1,1,,,unmapped,no safe ADE20K match
+couch,3,6,,,unmapped,no safe ADE20K match
+counter,27,39,counter,45,exact,exact normalized match
+countertop,2,2,countertop,70,exact,exact normalized match
+cover,3,3,,,unmapped,no safe ADE20K match
+covred power socket,1,1,,,unmapped,no safe ADE20K match
+cpu,5,8,,,unmapped,no safe ADE20K match
+crate,10,46,,,unmapped,no safe ADE20K match
+crate trolley,1,1,,,unmapped,no safe ADE20K match
+cream bottle,2,2,,,unmapped,no safe ADE20K match
+cream tube,1,3,,,unmapped,no safe ADE20K match
+creamer packets,1,1,,,unmapped,no safe ADE20K match
+cross body bag,1,1,,,unmapped,no safe ADE20K match
+cubicle door,1,2,door,14,rule,token rule -> door
+cup,50,98,,,unmapped,no safe ADE20K match
+cupboard,8,10,,,unmapped,no safe ADE20K match
+curtain,52,87,curtain,18,exact,exact normalized match
+curtain rail,5,6,,,unmapped,no safe ADE20K match
+curtain rails,3,3,,,unmapped,no safe ADE20K match
+curtain rod,7,11,,,unmapped,no safe ADE20K match
+cushion,15,41,cushion,39,exact,exact normalized match
+cushions,1,1,cushion,39,plural,plural -> singular exact match
+cutboard,1,1,,,unmapped,no safe ADE20K match
+cutting board,18,32,,,unmapped,no safe ADE20K match
+cutting boards,2,2,,,unmapped,no safe ADE20K match
+cylinder,1,1,,,unmapped,no safe ADE20K match
+dartboard,1,1,,,unmapped,no safe ADE20K match
+datashow socket,1,1,,,unmapped,no safe ADE20K match
+deak lamp,1,1,lamp,36,rule,token rule -> lamp
+deck chair,1,1,chair,19,rule,token rule -> chair
+decoration,13,27,,,unmapped,no safe ADE20K match
+decoration piece,5,9,,,unmapped,no safe ADE20K match
+decoration tree,1,1,,,unmapped,no safe ADE20K match
+decorative mirror,1,3,,,unmapped,no safe ADE20K match
+deodrant,1,2,,,unmapped,no safe ADE20K match
+desk,20,34,desk,33,exact,exact normalized match
+desk fan,5,5,,,unmapped,no safe ADE20K match
+desk lamp,11,14,lamp,36,alias,manual alias: desk lamp -> lamp
+desk light,1,1,,,unmapped,no safe ADE20K match
+desk organizer,2,4,,,unmapped,no safe ADE20K match
+desk power strip,1,4,,,unmapped,no safe ADE20K match
+detergent bottle,2,3,,,unmapped,no safe ADE20K match
+device,1,1,,,unmapped,no safe ADE20K match
+dining chair,1,5,chair,19,rule,token rule -> chair
+dining table,1,1,,,unmapped,no safe ADE20K match
+dish brush,1,1,,,unmapped,no safe ADE20K match
+dish drainer,1,3,,,unmapped,no safe ADE20K match
+dish drying rack,1,1,,,unmapped,no safe ADE20K match
+dish rack,4,4,,,unmapped,no safe ADE20K match
+dish soap,1,1,,,unmapped,no safe ADE20K match
+dish soap bottle,2,2,,,unmapped,no safe ADE20K match
+dish sponges,1,1,,,unmapped,no safe ADE20K match
+dish washing liquid,1,1,,,unmapped,no safe ADE20K match
+dishes,3,5,,,unmapped,no safe ADE20K match
+dishwasher,10,10,dishwasher,129,exact,exact normalized match
+dishwashing liquid,1,1,,,unmapped,no safe ADE20K match
+dishwashing soap,1,1,,,unmapped,no safe ADE20K match
+dispenser bottle,1,1,,,unmapped,no safe ADE20K match
+document holder,1,1,,,unmapped,no safe ADE20K match
+document organizer,1,1,,,unmapped,no safe ADE20K match
+document tray,1,1,,,unmapped,no safe ADE20K match
+documents,2,3,,,unmapped,no safe ADE20K match
+dog bed,1,1,,,unmapped,no safe ADE20K match
+dog bowl,1,1,,,unmapped,no safe ADE20K match
+dongle,1,1,,,unmapped,no safe ADE20K match
+door,222,403,door,14,exact,exact normalized match
+door frame,97,132,door,14,alias,manual alias: door frame -> door
+door handle,3,6,door,14,rule,token rule -> door
+door hinge,1,2,door,14,rule,token rule -> door
+door knob,1,1,door,14,rule,token rule -> door
+door lamp,1,1,lamp,36,rule,token rule -> lamp
+door mat,1,1,door,14,rule,token rule -> door
+door stopper,1,1,door,14,rule,token rule -> door
+doorframe,105,167,door,14,alias,manual alias: doorframe -> door
+doorfraome,1,1,door,14,rule,token rule -> door
+doorway,1,1,door,14,rule,token rule -> door
+drain,1,1,,,unmapped,no safe ADE20K match
+drain rack,1,1,,,unmapped,no safe ADE20K match
+drainpipe,1,2,,,unmapped,no safe ADE20K match
+drawer,2,3,,,unmapped,no safe ADE20K match
+drawers,1,1,,,unmapped,no safe ADE20K match
+dresser,3,3,,,unmapped,no safe ADE20K match
+dried plant,1,1,,,unmapped,no safe ADE20K match
+drum,4,5,,,unmapped,no safe ADE20K match
+drum set,1,1,,,unmapped,no safe ADE20K match
+drying rack,3,3,,,unmapped,no safe ADE20K match
+duct,1,1,,,unmapped,no safe ADE20K match
+duffle bag,1,1,,,unmapped,no safe ADE20K match
+dumbbell,6,18,,,unmapped,no safe ADE20K match
+dumbbell case,1,1,,,unmapped,no safe ADE20K match
+dumbbells,1,1,,,unmapped,no safe ADE20K match
+dust pan,2,2,,,unmapped,no safe ADE20K match
+dustbin,1,2,,,unmapped,no safe ADE20K match
+duster,3,4,,,unmapped,no safe ADE20K match
+dustpan,2,3,,,unmapped,no safe ADE20K match
+duvet,2,2,,,unmapped,no safe ADE20K match
+dvd,2,2,,,unmapped,no safe ADE20K match
+dvd player,1,1,,,unmapped,no safe ADE20K match
+earbuds,1,1,,,unmapped,no safe ADE20K match
+easel,2,2,,,unmapped,no safe ADE20K match
+egg carton,2,2,,,unmapped,no safe ADE20K match
+eggs,1,1,,,unmapped,no safe ADE20K match
+ehaust fan,1,1,,,unmapped,no safe ADE20K match
+electric circuit board,1,1,,,unmapped,no safe ADE20K match
+electric duct,11,14,,,unmapped,no safe ADE20K match
+electric kettle,3,3,,,unmapped,no safe ADE20K match
+electric toothbrush,3,3,,,unmapped,no safe ADE20K match
+electrical adapter,1,1,,,unmapped,no safe ADE20K match
+electrical board,1,1,,,unmapped,no safe ADE20K match
+electrical box,2,2,,,unmapped,no safe ADE20K match
+electrical cabinet,1,1,cabinet,10,rule,token rule -> cabinet
+electrical control panel,1,46,,,unmapped,no safe ADE20K match
+electrical control panels,1,2,,,unmapped,no safe ADE20K match
+electrical duct,61,147,,,unmapped,no safe ADE20K match
+electrical outlet,1,1,,,unmapped,no safe ADE20K match
+electrical panel,4,43,,,unmapped,no safe ADE20K match
+electrical plug,2,3,,,unmapped,no safe ADE20K match
+electrical tape,1,1,,,unmapped,no safe ADE20K match
+elephant toy,1,1,,,unmapped,no safe ADE20K match
+emergency button,1,1,,,unmapped,no safe ADE20K match
+emergency light,2,4,,,unmapped,no safe ADE20K match
+envelope,6,7,,,unmapped,no safe ADE20K match
+equipment,1,1,,,unmapped,no safe ADE20K match
+equipment cover,1,2,,,unmapped,no safe ADE20K match
+eraser,10,12,,,unmapped,no safe ADE20K match
+exercise ball,1,1,,,unmapped,no safe ADE20K match
+exhaust fan,21,36,,,unmapped,no safe ADE20K match
+exhaust fan/ceiling vent,1,1,,,unmapped,no safe ADE20K match
+exhaust fan/ceiling ventilation valve,1,1,,,unmapped,no safe ADE20K match
+exhaust fan/vent,1,1,,,unmapped,no safe ADE20K match
+exhaust hood,1,1,,,unmapped,no safe ADE20K match
+exhaust pipe,2,6,,,unmapped,no safe ADE20K match
+exhaustive fan,3,3,,,unmapped,no safe ADE20K match
+exit sign,1,3,,,unmapped,no safe ADE20K match
+extension board,1,1,,,unmapped,no safe ADE20K match
+extension cord,1,2,,,unmapped,no safe ADE20K match
+fabric,3,4,,,unmapped,no safe ADE20K match
+fake ceiling,13,20,,,unmapped,no safe ADE20K match
+fan,15,19,fan,139,exact,exact normalized match
+fanny pack,1,1,,,unmapped,no safe ADE20K match
+faucet,16,22,,,unmapped,no safe ADE20K match
+figurine,1,1,,,unmapped,no safe ADE20K match
+file,8,11,,,unmapped,no safe ADE20K match
+file binder,6,56,,,unmapped,no safe ADE20K match
+file cabinet,7,16,cabinet,10,rule,token rule -> cabinet
+file folder,12,81,,,unmapped,no safe ADE20K match
+file holder,2,2,,,unmapped,no safe ADE20K match
+file organizer,3,4,,,unmapped,no safe ADE20K match
+file orginizer,1,1,,,unmapped,no safe ADE20K match
+file rack,4,5,,,unmapped,no safe ADE20K match
+file shelfs,1,1,shelf,24,rule,token rule -> shelf
+file stack,1,1,,,unmapped,no safe ADE20K match
+file storage,2,2,,,unmapped,no safe ADE20K match
+file tray,1,1,,,unmapped,no safe ADE20K match
+files,5,6,,,unmapped,no safe ADE20K match
+filter jug,3,3,,,unmapped,no safe ADE20K match
+fire alarm,4,8,,,unmapped,no safe ADE20K match
+fire estinguisher,1,1,,,unmapped,no safe ADE20K match
+fire exinguisher,1,1,,,unmapped,no safe ADE20K match
+fire extinguisher,15,15,,,unmapped,no safe ADE20K match
+fire extuingisher,1,2,,,unmapped,no safe ADE20K match
+fireplace,1,1,fireplace,49,exact,exact normalized match
+fireplace surround,1,1,,,unmapped,no safe ADE20K match
+flask,1,1,,,unmapped,no safe ADE20K match
+flip flops,3,4,,,unmapped,no safe ADE20K match
+flipflop,1,1,,,unmapped,no safe ADE20K match
+floor,227,266,floor,3,exact,exact normalized match
+floor cleaner,1,1,,,unmapped,no safe ADE20K match
+floor couch,1,1,,,unmapped,no safe ADE20K match
+floor cushion,1,2,,,unmapped,no safe ADE20K match
+floor lamp,14,16,lamp,36,alias,manual alias: floor lamp -> lamp
+floor mat,3,6,,,unmapped,no safe ADE20K match
+flower,2,7,flower,66,exact,exact normalized match
+flower pot,4,6,,,unmapped,no safe ADE20K match
+flowers,6,8,flower,66,plural,plural -> singular exact match
+fluorescent lamp,1,1,lamp,36,rule,token rule -> lamp
+flush button,5,5,,,unmapped,no safe ADE20K match
+flush tank,1,1,,,unmapped,no safe ADE20K match
+folded bag,1,1,,,unmapped,no safe ADE20K match
+folder,17,47,,,unmapped,no safe ADE20K match
+folder oragnizer,1,1,,,unmapped,no safe ADE20K match
+folders,6,10,,,unmapped,no safe ADE20K match
+folding chair,1,1,chair,19,rule,token rule -> chair
+folding room divider,1,1,,,unmapped,no safe ADE20K match
+folding umbrella,2,2,,,unmapped,no safe ADE20K match
+food,2,2,food,120,exact,exact normalized match
+food container,5,7,,,unmapped,no safe ADE20K match
+food packet,1,7,,,unmapped,no safe ADE20K match
+food pot,1,1,,,unmapped,no safe ADE20K match
+foot rest,3,5,,,unmapped,no safe ADE20K match
+footrest,1,1,,,unmapped,no safe ADE20K match
+foreman grill,1,1,,,unmapped,no safe ADE20K match
+frame,7,32,,,unmapped,no safe ADE20K match
+french press,1,1,,,unmapped,no safe ADE20K match
+fridge,4,4,,,unmapped,no safe ADE20K match
+fruit,2,5,,,unmapped,no safe ADE20K match
+fruits,1,1,,,unmapped,no safe ADE20K match
+frying pan,2,2,,,unmapped,no safe ADE20K match
+fume hood,3,4,,,unmapped,no safe ADE20K match
+funnel,1,1,,,unmapped,no safe ADE20K match
+game console,1,1,,,unmapped,no safe ADE20K match
+game console controller,2,3,,,unmapped,no safe ADE20K match
+game controller,1,1,,,unmapped,no safe ADE20K match
+garage shelf,1,1,shelf,24,rule,token rule -> shelf
+garlic,1,1,,,unmapped,no safe ADE20K match
+gas cylinder,1,1,,,unmapped,no safe ADE20K match
+gas tank,1,1,,,unmapped,no safe ADE20K match
+gift bag,1,1,,,unmapped,no safe ADE20K match
+glass,2,2,glass,147,exact,exact normalized match
+glass bottle,4,22,,,unmapped,no safe ADE20K match
+glass case,1,1,,,unmapped,no safe ADE20K match
+glass pane,2,2,,,unmapped,no safe ADE20K match
+glass plate,1,1,,,unmapped,no safe ADE20K match
+glass shelf,1,3,shelf,24,rule,token rule -> shelf
+glasses case,6,7,,,unmapped,no safe ADE20K match
+glasses cover,1,1,,,unmapped,no safe ADE20K match
+globe,5,5,,,unmapped,no safe ADE20K match
+gloves,4,5,,,unmapped,no safe ADE20K match
+grab bar,1,3,,,unmapped,no safe ADE20K match
+green vegetables,1,1,,,unmapped,no safe ADE20K match
+guitar,5,7,,,unmapped,no safe ADE20K match
+guitar bag,4,4,,,unmapped,no safe ADE20K match
+guitar case,1,1,,,unmapped,no safe ADE20K match
+guitar pedal,1,1,,,unmapped,no safe ADE20K match
+guitar stand,1,1,,,unmapped,no safe ADE20K match
+gym bag,1,1,,,unmapped,no safe ADE20K match
+gym ball,1,1,,,unmapped,no safe ADE20K match
+hair brush,1,1,,,unmapped,no safe ADE20K match
+hair dryer,5,5,,,unmapped,no safe ADE20K match
+hair dryer holder,1,1,,,unmapped,no safe ADE20K match
+hair tools,1,1,,,unmapped,no safe ADE20K match
+hairdryer,1,1,,,unmapped,no safe ADE20K match
+hand bag,4,8,,,unmapped,no safe ADE20K match
+hand soap dispenser,1,1,,,unmapped,no safe ADE20K match
+hand towel,2,2,,,unmapped,no safe ADE20K match
+hand truck,1,1,,,unmapped,no safe ADE20K match
+hand washing liquid,1,1,,,unmapped,no safe ADE20K match
+handbag,2,2,,,unmapped,no safe ADE20K match
+handle,2,3,,,unmapped,no safe ADE20K match
+handle bar,1,1,,,unmapped,no safe ADE20K match
+hangbag,1,1,,,unmapped,no safe ADE20K match
+hanger,11,18,,,unmapped,no safe ADE20K match
+hangers,2,2,,,unmapped,no safe ADE20K match
+hanging closet,1,1,,,unmapped,no safe ADE20K match
+hanging deer skull,1,1,,,unmapped,no safe ADE20K match
+hanging frame,1,4,,,unmapped,no safe ADE20K match
+hanging hook,1,1,,,unmapped,no safe ADE20K match
+hanging light,1,1,,,unmapped,no safe ADE20K match
+hard drive,1,1,,,unmapped,no safe ADE20K match
+hat,8,12,,,unmapped,no safe ADE20K match
+head model,1,1,,,unmapped,no safe ADE20K match
+headboard,7,8,,,unmapped,no safe ADE20K match
+headboard pillow,1,1,,,unmapped,no safe ADE20K match
+headphone,10,20,,,unmapped,no safe ADE20K match
+headphone case,3,3,,,unmapped,no safe ADE20K match
+headphones,14,18,,,unmapped,no safe ADE20K match
+headrail,1,4,,,unmapped,no safe ADE20K match
+headset,10,11,,,unmapped,no safe ADE20K match
+heater,145,255,,,unmapped,no safe ADE20K match
+heels,1,1,,,unmapped,no safe ADE20K match
+helmet,7,11,,,unmapped,no safe ADE20K match
+high bench,1,4,,,unmapped,no safe ADE20K match
+high chair,1,3,chair,19,rule,token rule -> chair
+high stool,1,8,,,unmapped,no safe ADE20K match
+high table,1,4,,,unmapped,no safe ADE20K match
+highlighter,2,2,,,unmapped,no safe ADE20K match
+holder,1,1,,,unmapped,no safe ADE20K match
+hole puncher,4,4,,,unmapped,no safe ADE20K match
+hook,1,1,,,unmapped,no safe ADE20K match
+hose,1,9,,,unmapped,no safe ADE20K match
+hose pipe,1,1,,,unmapped,no safe ADE20K match
+hot bag,1,1,,,unmapped,no safe ADE20K match
+human skeleton,1,1,,,unmapped,no safe ADE20K match
+hydraulic press,1,6,,,unmapped,no safe ADE20K match
+indoor crane,1,1,door,14,rule,token rule -> door
+information stand,1,5,,,unmapped,no safe ADE20K match
+instant pot,3,4,,,unmapped,no safe ADE20K match
+insulated coffee mug,1,1,,,unmapped,no safe ADE20K match
+interactive board,1,2,,,unmapped,no safe ADE20K match
+intercom,5,5,,,unmapped,no safe ADE20K match
+intercom device,1,1,,,unmapped,no safe ADE20K match
+intercom screen,1,1,,,unmapped,no safe ADE20K match
+intercome,1,1,,,unmapped,no safe ADE20K match
+internet socket,2,9,,,unmapped,no safe ADE20K match
+iron,3,3,,,unmapped,no safe ADE20K match
+jacket,45,85,,,unmapped,no safe ADE20K match
+jackets,1,1,,,unmapped,no safe ADE20K match
+janitor cart,1,1,,,unmapped,no safe ADE20K match
+jar,15,44,,,unmapped,no safe ADE20K match
+jerry can,4,6,,,unmapped,no safe ADE20K match
+jerrycan,1,2,,,unmapped,no safe ADE20K match
+jioned tables,1,1,,,unmapped,no safe ADE20K match
+joined tables,5,8,,,unmapped,no safe ADE20K match
+joystick,3,3,,,unmapped,no safe ADE20K match
+jug,8,9,,,unmapped,no safe ADE20K match
+jump rope,1,1,,,unmapped,no safe ADE20K match
+kettel,1,1,,,unmapped,no safe ADE20K match
+kettle,29,33,,,unmapped,no safe ADE20K match
+kettlebell,1,3,,,unmapped,no safe ADE20K match
+keyabord,1,1,,,unmapped,no safe ADE20K match
+keyboard,108,290,,,unmapped,no safe ADE20K match
+keyboards,1,1,,,unmapped,no safe ADE20K match
+kitchen brush,1,1,,,unmapped,no safe ADE20K match
+kitchen cabinet,28,90,cabinet,10,alias,manual alias: kitchen cabinet -> cabinet
+kitchen ceiling,1,1,,,unmapped,no safe ADE20K match
+kitchen cloth,1,1,,,unmapped,no safe ADE20K match
+kitchen counter,21,24,counter,45,alias,manual alias: kitchen counter -> counter
+kitchen equipment,1,1,,,unmapped,no safe ADE20K match
+kitchen knives,1,1,,,unmapped,no safe ADE20K match
+kitchen light,1,2,,,unmapped,no safe ADE20K match
+kitchen pot,3,4,,,unmapped,no safe ADE20K match
+kitchen rail,1,1,,,unmapped,no safe ADE20K match
+kitchen robot,1,1,,,unmapped,no safe ADE20K match
+kitchen roll,1,1,,,unmapped,no safe ADE20K match
+kitchen shelf,1,2,shelf,24,rule,token rule -> shelf
+kitchen sink,4,4,,,unmapped,no safe ADE20K match
+kitchen storage rack,1,1,,,unmapped,no safe ADE20K match
+kitchen stove,1,1,,,unmapped,no safe ADE20K match
+kitchen tap,1,1,,,unmapped,no safe ADE20K match
+kitchen towel,12,19,towel,81,alias,manual alias: kitchen towel -> towel
+kitchen unit,2,2,,,unmapped,no safe ADE20K match
+kitchen utensils,5,6,,,unmapped,no safe ADE20K match
+kitchen utensils rack,1,1,,,unmapped,no safe ADE20K match
+kitchenware,1,4,,,unmapped,no safe ADE20K match
+knife,4,6,,,unmapped,no safe ADE20K match
+knife block,1,1,,,unmapped,no safe ADE20K match
+ktchen rool,1,1,,,unmapped,no safe ADE20K match
+l-shaped sofa,1,1,,,unmapped,no safe ADE20K match
+lab equipment,1,1,,,unmapped,no safe ADE20K match
+lab fridge,1,1,,,unmapped,no safe ADE20K match
+lab machine,2,17,,,unmapped,no safe ADE20K match
+lab materials,1,1,,,unmapped,no safe ADE20K match
+laboratory bench,1,1,,,unmapped,no safe ADE20K match
+laboratory cabinet,1,1,cabinet,10,rule,token rule -> cabinet
+laboratory equipment,1,9,,,unmapped,no safe ADE20K match
+laboratory pellet press,1,1,,,unmapped,no safe ADE20K match
+laboratory power supply,1,1,,,unmapped,no safe ADE20K match
+ladder,11,13,,,unmapped,no safe ADE20K match
+ladle,1,1,,,unmapped,no safe ADE20K match
+lamp,14,20,lamp,36,exact,exact normalized match
+lan port,1,1,,,unmapped,no safe ADE20K match
+lanyard,1,1,,,unmapped,no safe ADE20K match
+laptop,46,51,computer,74,alias,manual alias: laptop -> computer
+laptop bag,2,2,,,unmapped,no safe ADE20K match
+laptop case,2,2,,,unmapped,no safe ADE20K match
+laptop charger,1,1,,,unmapped,no safe ADE20K match
+laptop cover,1,1,,,unmapped,no safe ADE20K match
+laptop sleeve,2,2,,,unmapped,no safe ADE20K match
+laptop stand,11,17,,,unmapped,no safe ADE20K match
+laptop table,1,1,,,unmapped,no safe ADE20K match
+laundry basket,12,15,,,unmapped,no safe ADE20K match
+laundry detergent,2,2,,,unmapped,no safe ADE20K match
+laundry hanger,1,1,,,unmapped,no safe ADE20K match
+leaf fan,1,1,,,unmapped,no safe ADE20K match
+lectern,1,1,,,unmapped,no safe ADE20K match
+lid,4,4,,,unmapped,no safe ADE20K match
+light,4,17,light,82,exact,exact normalized match
+light bulb,1,1,,,unmapped,no safe ADE20K match
+light cover,1,1,,,unmapped,no safe ADE20K match
+light stand,2,7,,,unmapped,no safe ADE20K match
+light switch,156,309,,,unmapped,no safe ADE20K match
+light switches,2,3,,,unmapped,no safe ADE20K match
+light switchs,1,1,,,unmapped,no safe ADE20K match
+linked retractable seats,1,9,,,unmapped,no safe ADE20K match
+liquid soap,1,1,,,unmapped,no safe ADE20K match
+loafers,2,2,,,unmapped,no safe ADE20K match
+locker,1,3,,,unmapped,no safe ADE20K match
+loft bed,1,1,,,unmapped,no safe ADE20K match
+long pillow,1,3,,,unmapped,no safe ADE20K match
+lotion,1,1,,,unmapped,no safe ADE20K match
+lounge chair,2,6,chair,19,rule,token rule -> chair
+luggage,3,5,,,unmapped,no safe ADE20K match
+luggage bag,1,1,,,unmapped,no safe ADE20K match
+lunch bag,1,1,,,unmapped,no safe ADE20K match
+machine,11,26,,,unmapped,no safe ADE20K match
+machine button,1,8,,,unmapped,no safe ADE20K match
+machine container,1,1,,,unmapped,no safe ADE20K match
+magazine,4,44,,,unmapped,no safe ADE20K match
+magazine holder,1,1,,,unmapped,no safe ADE20K match
+magazine stand,1,1,,,unmapped,no safe ADE20K match
+magazines,1,4,,,unmapped,no safe ADE20K match
+magnets,3,3,,,unmapped,no safe ADE20K match
+mailbox,1,1,,,unmapped,no safe ADE20K match
+main switchboard,1,1,,,unmapped,no safe ADE20K match
+marker,6,15,,,unmapped,no safe ADE20K match
+marker eraser,1,3,,,unmapped,no safe ADE20K match
+marker storage,1,1,,,unmapped,no safe ADE20K match
+mask,1,1,,,unmapped,no safe ADE20K match
+mat,9,12,,,unmapped,no safe ADE20K match
+matress,2,2,,,unmapped,no safe ADE20K match
+mattress,9,13,,,unmapped,no safe ADE20K match
+measuring spoon,1,2,,,unmapped,no safe ADE20K match
+medical appliance,1,5,,,unmapped,no safe ADE20K match
+medical machine,1,2,,,unmapped,no safe ADE20K match
+medical stool,1,1,,,unmapped,no safe ADE20K match
+messenger bag,1,1,,,unmapped,no safe ADE20K match
+metal board,1,2,,,unmapped,no safe ADE20K match
+microphone,4,4,,,unmapped,no safe ADE20K match
+microscope,4,7,,,unmapped,no safe ADE20K match
+microwave,27,28,microwave,124,exact,exact normalized match
+microwave oven,2,2,,,unmapped,no safe ADE20K match
+midi controller,1,1,,,unmapped,no safe ADE20K match
+milk carton,1,10,,,unmapped,no safe ADE20K match
+milk cartons,2,2,,,unmapped,no safe ADE20K match
+milk jug,1,2,,,unmapped,no safe ADE20K match
+mini fridge,1,1,,,unmapped,no safe ADE20K match
+mini oven,1,1,,,unmapped,no safe ADE20K match
+mini shelf,1,1,shelf,24,rule,token rule -> shelf
+mirror,22,26,mirror,27,exact,exact normalized match
+mirror cabinet,1,1,cabinet,10,rule,token rule -> cabinet
+mirror frame,2,3,,,unmapped,no safe ADE20K match
+mirror lamp,1,1,lamp,36,rule,token rule -> lamp
+mirror light,3,3,,,unmapped,no safe ADE20K match
+mirros,1,1,,,unmapped,no safe ADE20K match
+mixer,1,1,,,unmapped,no safe ADE20K match
+mixer glass,1,1,,,unmapped,no safe ADE20K match
+mixer machine,1,1,,,unmapped,no safe ADE20K match
+mobile phone,1,1,,,unmapped,no safe ADE20K match
+mobile tv stand,1,1,,,unmapped,no safe ADE20K match
+moitor,1,1,,,unmapped,no safe ADE20K match
+moka pot,1,1,,,unmapped,no safe ADE20K match
+monitor,125,471,monitor,143,exact,exact normalized match
+monitor base,1,1,,,unmapped,no safe ADE20K match
+monitor cover,1,1,,,unmapped,no safe ADE20K match
+monitor light,1,1,,,unmapped,no safe ADE20K match
+monitor stand,5,5,,,unmapped,no safe ADE20K match
+mop,8,8,,,unmapped,no safe ADE20K match
+mop pad,1,1,,,unmapped,no safe ADE20K match
+moss pole,1,1,,,unmapped,no safe ADE20K match
+mount,1,1,,,unmapped,no safe ADE20K match
+mouse,101,240,,,unmapped,no safe ADE20K match
+mouse pad,12,13,,,unmapped,no safe ADE20K match
+mousepad,2,2,,,unmapped,no safe ADE20K match
+mug,50,102,,,unmapped,no safe ADE20K match
+multi socket,1,1,,,unmapped,no safe ADE20K match
+multifunction printer,1,1,,,unmapped,no safe ADE20K match
+neck pillow,2,2,,,unmapped,no safe ADE20K match
+network outlet,1,2,,,unmapped,no safe ADE20K match
+network socket,3,10,,,unmapped,no safe ADE20K match
+night lamp,1,1,lamp,36,rule,token rule -> lamp
+night stand,1,1,,,unmapped,no safe ADE20K match
+nightstand,6,8,,,unmapped,no safe ADE20K match
+note,1,1,,,unmapped,no safe ADE20K match
+notebook,18,32,,,unmapped,no safe ADE20K match
+notebooks,3,3,,,unmapped,no safe ADE20K match
+notepad,2,4,,,unmapped,no safe ADE20K match
+notes,1,2,,,unmapped,no safe ADE20K match
+notice board,3,3,,,unmapped,no safe ADE20K match
+object,198,2865,,,ignored,meta / non-semantic label
+object/toiletry,1,3,,,unmapped,no safe ADE20K match
+objects,22,36,,,ignored,meta / non-semantic label
+office  chair,1,1,swivel chair,75,alias,manual alias: office chair -> swivel chair
+office cabinet,3,3,cabinet,10,rule,token rule -> cabinet
+office chair,116,400,swivel chair,75,alias,manual alias: office chair -> swivel chair
+office chiar,1,1,,,unmapped,no safe ADE20K match
+office desk,4,5,,,unmapped,no safe ADE20K match
+office table,11,29,table,15,alias,manual alias: office table -> table
+office visitor chair,1,25,swivel chair,75,rule,token rule -> swivel chair
+ofice chair,1,1,chair,19,rule,token rule -> chair
+onions,1,1,,,unmapped,no safe ADE20K match
+oragnizer,1,1,,,unmapped,no safe ADE20K match
+orange,1,7,,,unmapped,no safe ADE20K match
+organizer,1,2,,,unmapped,no safe ADE20K match
+ornament,2,4,,,unmapped,no safe ADE20K match
+ottoman,5,5,ottoman,97,exact,exact normalized match
+outlet,21,58,,,unmapped,no safe ADE20K match
+oven,12,13,oven,118,exact,exact normalized match
+oven controls,1,1,,,unmapped,no safe ADE20K match
+oven glove,1,1,,,unmapped,no safe ADE20K match
+oven gloves,4,4,,,unmapped,no safe ADE20K match
+oven panel,1,1,,,unmapped,no safe ADE20K match
+oven range,1,1,,,unmapped,no safe ADE20K match
+overhead projector,1,1,,,unmapped,no safe ADE20K match
+pack,1,3,,,unmapped,no safe ADE20K match
+package,3,4,,,unmapped,no safe ADE20K match
+packet,2,2,,,unmapped,no safe ADE20K match
+painting,13,43,painting,22,exact,exact normalized match
+paintings,1,1,painting,22,plural,plural -> singular exact match
+pallet cage,1,2,,,unmapped,no safe ADE20K match
+palm rest,1,1,,,unmapped,no safe ADE20K match
+pan,11,16,,,unmapped,no safe ADE20K match
+panel,1,1,,,unmapped,no safe ADE20K match
+panelboard,1,1,,,unmapped,no safe ADE20K match
+pants,2,2,,,unmapped,no safe ADE20K match
+paper,90,256,,,unmapped,no safe ADE20K match
+paper bag,10,16,bag,115,alias,manual alias: paper bag -> bag
+paper bin,1,1,,,unmapped,no safe ADE20K match
+paper box,1,2,,,unmapped,no safe ADE20K match
+paper files,3,4,,,unmapped,no safe ADE20K match
+paper holder,1,1,,,unmapped,no safe ADE20K match
+paper note,1,4,,,unmapped,no safe ADE20K match
+paper notebook,1,1,,,unmapped,no safe ADE20K match
+paper notes,1,1,,,unmapped,no safe ADE20K match
+paper organizer,2,3,,,unmapped,no safe ADE20K match
+paper puncher,2,2,,,unmapped,no safe ADE20K match
+paper roll,4,9,,,unmapped,no safe ADE20K match
+paper rolls,1,1,,,unmapped,no safe ADE20K match
+paper shredder,1,1,,,unmapped,no safe ADE20K match
+paper stack,2,2,,,unmapped,no safe ADE20K match
+paper stapler,1,1,,,unmapped,no safe ADE20K match
+paper towel,21,29,towel,81,alias,manual alias: paper towel -> towel
+paper towel dispenser,9,9,,,unmapped,no safe ADE20K match
+paper towel roll,1,1,,,unmapped,no safe ADE20K match
+paper towels,4,7,,,unmapped,no safe ADE20K match
+paper tray,4,5,,,unmapped,no safe ADE20K match
+paper trays,1,2,,,unmapped,no safe ADE20K match
+paper tube,1,6,,,unmapped,no safe ADE20K match
+paper weight,1,1,,,unmapped,no safe ADE20K match
+papers,22,44,,,unmapped,no safe ADE20K match
+parasol stand,1,1,,,unmapped,no safe ADE20K match
+parcel,1,1,,,unmapped,no safe ADE20K match
+partition,3,17,,,unmapped,no safe ADE20K match
+partition wall,1,1,,,unmapped,no safe ADE20K match
+pc,12,29,computer,74,alias,manual alias: pc -> computer
+pcture,1,1,,,unmapped,no safe ADE20K match
+pedals,1,1,,,unmapped,no safe ADE20K match
+pedestal fan,18,22,,,unmapped,no safe ADE20K match
+pen,16,20,,,unmapped,no safe ADE20K match
+pen holder,12,19,,,unmapped,no safe ADE20K match
+pen tray,2,2,,,unmapped,no safe ADE20K match
+pencil,3,3,,,unmapped,no safe ADE20K match
+pencil case,3,3,,,unmapped,no safe ADE20K match
+pencil cup,2,2,,,unmapped,no safe ADE20K match
+pencil holder,2,2,,,unmapped,no safe ADE20K match
+pencils cup,1,1,,,unmapped,no safe ADE20K match
+penholder,1,1,,,unmapped,no safe ADE20K match
+pens,2,3,,,unmapped,no safe ADE20K match
+pepper mill,2,4,,,unmapped,no safe ADE20K match
+pet bowl,1,2,,,unmapped,no safe ADE20K match
+phone,7,12,,,unmapped,no safe ADE20K match
+phone holder,1,1,,,unmapped,no safe ADE20K match
+phone stand,2,2,,,unmapped,no safe ADE20K match
+phone tripod,1,1,,,unmapped,no safe ADE20K match
+photo,3,6,,,unmapped,no safe ADE20K match
+photo frame,2,3,,,unmapped,no safe ADE20K match
+photocopy machine,2,3,,,unmapped,no safe ADE20K match
+photoframe,1,1,,,unmapped,no safe ADE20K match
+picture,43,115,painting,22,alias,manual alias: picture -> painting
+picture frame,5,7,,,unmapped,no safe ADE20K match
+pictures,1,2,,,unmapped,no safe ADE20K match
+piilow,1,2,,,unmapped,no safe ADE20K match
+pile of papers,1,1,,,unmapped,no safe ADE20K match
+pillar,19,24,,,unmapped,no safe ADE20K match
+pillow,45,134,pillow,57,exact,exact normalized match
+pillow/cushion,1,1,,,unmapped,no safe ADE20K match
+pinboard,7,9,,,unmapped,no safe ADE20K match
+pipe,49,272,,,unmapped,no safe ADE20K match
+pipe storage rack,1,1,,,unmapped,no safe ADE20K match
+pipes,4,4,,,unmapped,no safe ADE20K match
+pitcher,2,4,,,unmapped,no safe ADE20K match
+pizza box,1,1,,,unmapped,no safe ADE20K match
+pi̇cture,1,3,,,unmapped,no safe ADE20K match
+placemat,1,1,,,unmapped,no safe ADE20K match
+plank,1,2,,,unmapped,no safe ADE20K match
+plant,48,136,plant,17,exact,exact normalized match
+plant pot,28,73,pot,125,alias,manual alias: plant pot -> pot
+planter,1,1,,,unmapped,no safe ADE20K match
+plastic bag,5,6,,,unmapped,no safe ADE20K match
+plastic bottle,4,21,,,unmapped,no safe ADE20K match
+plate,15,22,plate,142,exact,exact normalized match
+plate rack,1,1,,,unmapped,no safe ADE20K match
+plates,4,7,,,unmapped,no safe ADE20K match
+playstation control,1,4,,,unmapped,no safe ADE20K match
+plug,9,12,,,unmapped,no safe ADE20K match
+plumbing pipe,1,8,,,unmapped,no safe ADE20K match
+plush doll,1,2,,,unmapped,no safe ADE20K match
+plush toy,1,1,,,unmapped,no safe ADE20K match
+plushie,1,1,,,unmapped,no safe ADE20K match
+pocket calculator,1,1,,,unmapped,no safe ADE20K match
+pole stand,1,1,,,unmapped,no safe ADE20K match
+portable fan,2,5,,,unmapped,no safe ADE20K match
+portable ladder,1,1,,,unmapped,no safe ADE20K match
+post it note,1,1,,,unmapped,no safe ADE20K match
+post-it,1,1,,,unmapped,no safe ADE20K match
+poster,36,102,poster,100,exact,exact normalized match
+posters,2,3,poster,100,plural,plural -> singular exact match
+pot,19,22,pot,125,exact,exact normalized match
+pot holder,1,1,,,unmapped,no safe ADE20K match
+pot lid,1,1,,,unmapped,no safe ADE20K match
+pots,1,1,pot,125,plural,plural -> singular exact match
+pouch,2,2,,,unmapped,no safe ADE20K match
+power adapter,2,4,,,unmapped,no safe ADE20K match
+power board,1,2,,,unmapped,no safe ADE20K match
+power cabinet,1,1,cabinet,10,rule,token rule -> cabinet
+power cables,1,1,,,unmapped,no safe ADE20K match
+power cord,2,3,,,unmapped,no safe ADE20K match
+power extension,1,2,,,unmapped,no safe ADE20K match
+power outlet,3,17,,,unmapped,no safe ADE20K match
+power panel,3,3,,,unmapped,no safe ADE20K match
+power socket,160,645,,,unmapped,no safe ADE20K match
+power socket unit,1,2,,,unmapped,no safe ADE20K match
+power sockets,6,23,,,unmapped,no safe ADE20K match
+power strip,45,62,,,unmapped,no safe ADE20K match
+power supply,1,1,,,unmapped,no safe ADE20K match
+power switch,6,7,,,unmapped,no safe ADE20K match
+power switch and power socket,1,1,,,unmapped,no safe ADE20K match
+powerbank,1,1,,,unmapped,no safe ADE20K match
+powerstrip,5,5,,,unmapped,no safe ADE20K match
+powre socket,1,1,,,unmapped,no safe ADE20K match
+pressure cooker,1,2,,,unmapped,no safe ADE20K match
+printer,16,20,,,unmapped,no safe ADE20K match
+projection curtain,1,1,,,unmapped,no safe ADE20K match
+projector,17,18,,,unmapped,no safe ADE20K match
+projector holder,2,2,,,unmapped,no safe ADE20K match
+projector screen,3,3,,,unmapped,no safe ADE20K match
+prosthetic leg,1,1,,,unmapped,no safe ADE20K match
+purse,3,4,,,unmapped,no safe ADE20K match
+push cart,1,1,,,unmapped,no safe ADE20K match
+racing simulator,1,1,,,unmapped,no safe ADE20K match
+rack,9,13,,,unmapped,no safe ADE20K match
+radiator,7,8,radiator,146,exact,exact normalized match
+radiator pipes,1,2,,,unmapped,no safe ADE20K match
+radio,1,1,,,unmapped,no safe ADE20K match
+rag,2,2,,,unmapped,no safe ADE20K match
+railing,2,3,railing,38,exact,exact normalized match
+raised floor,1,1,,,unmapped,no safe ADE20K match
+range hood,7,7,,,unmapped,no safe ADE20K match
+razor,1,1,,,unmapped,no safe ADE20K match
+razor blade,1,1,,,unmapped,no safe ADE20K match
+recliner,1,1,,,unmapped,no safe ADE20K match
+recycle bag,1,1,,,unmapped,no safe ADE20K match
+recycle bin,1,1,,,unmapped,no safe ADE20K match
+refrigerator,15,15,refrigerator,50,exact,exact normalized match
+remote,6,7,,,unmapped,no safe ADE20K match
+remote control,6,6,,,unmapped,no safe ADE20K match
+remote controle,1,1,,,unmapped,no safe ADE20K match
+remote controller,1,2,,,unmapped,no safe ADE20K match
+remove,36,72,,,ignored,meta / non-semantic label
+rice cooker,6,7,,,unmapped,no safe ADE20K match
+ring light,1,1,,,unmapped,no safe ADE20K match
+robot car,2,2,,,unmapped,no safe ADE20K match
+robot vacuum cleaner,1,1,,,unmapped,no safe ADE20K match
+rod,1,1,,,unmapped,no safe ADE20K match
+rolled backdrop,1,5,,,unmapped,no safe ADE20K match
+rolled cable,1,1,,,unmapped,no safe ADE20K match
+rolled paper,5,15,,,unmapped,no safe ADE20K match
+rolled poster,2,3,,,unmapped,no safe ADE20K match
+rolled rug,1,1,,,unmapped,no safe ADE20K match
+roller blinds,6,9,,,unmapped,no safe ADE20K match
+rolling bag,1,1,,,unmapped,no safe ADE20K match
+rolling blinds,1,1,,,unmapped,no safe ADE20K match
+rolling cabinet,1,1,cabinet,10,rule,token rule -> cabinet
+rolling cart,7,15,,,unmapped,no safe ADE20K match
+rolling chair,3,4,chair,19,rule,token rule -> chair
+rolling mat,1,1,,,unmapped,no safe ADE20K match
+rolling trolley,1,1,,,unmapped,no safe ADE20K match
+roof,1,1,,,unmapped,no safe ADE20K match
+room divider,1,1,,,unmapped,no safe ADE20K match
+roomba,2,2,,,unmapped,no safe ADE20K match
+rope,1,1,,,unmapped,no safe ADE20K match
+router,6,6,,,unmapped,no safe ADE20K match
+rubber water bag,1,1,,,unmapped,no safe ADE20K match
+rug,12,34,rug,28,exact,exact normalized match
+rugby ball,1,1,,,unmapped,no safe ADE20K match
+running shoes,1,3,,,unmapped,no safe ADE20K match
+sack,2,5,,,unmapped,no safe ADE20K match
+safe,1,1,,,unmapped,no safe ADE20K match
+sandal,1,1,,,unmapped,no safe ADE20K match
+sandals,4,4,,,unmapped,no safe ADE20K match
+sandwich maker,1,1,,,unmapped,no safe ADE20K match
+sauce rack,1,1,,,unmapped,no safe ADE20K match
+saucer,1,2,,,unmapped,no safe ADE20K match
+savon,1,1,,,unmapped,no safe ADE20K match
+savon container,1,1,,,unmapped,no safe ADE20K match
+scale,1,1,,,unmapped,no safe ADE20K match
+scanner,2,2,,,unmapped,no safe ADE20K match
+scarf,3,3,,,unmapped,no safe ADE20K match
+scientific equipment,2,2,,,unmapped,no safe ADE20K match
+scissor,2,2,,,unmapped,no safe ADE20K match
+scissors,3,3,,,unmapped,no safe ADE20K match
+screen,1,1,screen,130,exact,exact normalized match
+screwdriver,1,1,,,unmapped,no safe ADE20K match
+sculpture,1,2,sculpture,132,exact,exact normalized match
+seat,1,1,seat,31,exact,exact normalized match
+seat cushion,1,1,,,unmapped,no safe ADE20K match
+self,1,1,,,unmapped,no safe ADE20K match
+sewing machine,1,1,,,unmapped,no safe ADE20K match
+shade,1,1,,,unmapped,no safe ADE20K match
+shampoo bottle,3,9,,,unmapped,no safe ADE20K match
+sheep doll,1,2,,,unmapped,no safe ADE20K match
+sheet,2,2,,,unmapped,no safe ADE20K match
+shelf,70,174,shelf,24,exact,exact normalized match
+shelves,1,1,,,unmapped,no safe ADE20K match
+shelving cart,1,1,,,unmapped,no safe ADE20K match
+shirt,6,15,,,unmapped,no safe ADE20K match
+shoe,8,35,,,unmapped,no safe ADE20K match
+shoe box,3,3,,,unmapped,no safe ADE20K match
+shoe cabinet,2,2,cabinet,10,rule,token rule -> cabinet
+shoe case,1,1,,,unmapped,no safe ADE20K match
+shoe horn,1,1,,,unmapped,no safe ADE20K match
+shoe rack,9,10,,,unmapped,no safe ADE20K match
+shoe spoon,1,1,,,unmapped,no safe ADE20K match
+shoes,29,78,,,unmapped,no safe ADE20K match
+shoes mat,1,1,,,unmapped,no safe ADE20K match
+shopping bag,3,5,,,unmapped,no safe ADE20K match
+shopping trolley,1,1,,,unmapped,no safe ADE20K match
+shower,3,4,shower,145,exact,exact normalized match
+shower arm,2,2,,,unmapped,no safe ADE20K match
+shower cabin,1,1,,,unmapped,no safe ADE20K match
+shower ceiling,2,2,,,unmapped,no safe ADE20K match
+shower cubicle,1,1,,,unmapped,no safe ADE20K match
+shower curtain,11,11,curtain,18,alias,manual alias: shower curtain -> curtain
+shower curtain rod,8,8,,,unmapped,no safe ADE20K match
+shower faucet,2,2,,,unmapped,no safe ADE20K match
+shower floor,10,10,,,unmapped,no safe ADE20K match
+shower gel,1,1,,,unmapped,no safe ADE20K match
+shower glass/delete this?,1,1,,,unmapped,no safe ADE20K match
+shower head,9,9,,,unmapped,no safe ADE20K match
+shower holder,1,1,,,unmapped,no safe ADE20K match
+shower hose,4,4,,,unmapped,no safe ADE20K match
+shower partition,1,1,,,unmapped,no safe ADE20K match
+shower rail,1,1,,,unmapped,no safe ADE20K match
+shower rug,2,2,,,unmapped,no safe ADE20K match
+shower squeegee,1,1,,,unmapped,no safe ADE20K match
+shower tap,1,1,,,unmapped,no safe ADE20K match
+shower tray,1,1,,,unmapped,no safe ADE20K match
+shower tub/shower floor,1,1,,,unmapped,no safe ADE20K match
+shower wall,16,49,,,unmapped,no safe ADE20K match
+shue rack,1,1,,,unmapped,no safe ADE20K match
+side table,3,3,,,unmapped,no safe ADE20K match
+sidetable,1,2,,,unmapped,no safe ADE20K match
+sign,3,4,,,unmapped,no safe ADE20K match
+sign board,1,2,,,unmapped,no safe ADE20K match
+sill,3,3,,,unmapped,no safe ADE20K match
+sink,67,81,sink,47,exact,exact normalized match
+skateboard,1,2,,,unmapped,no safe ADE20K match
+skeleton,1,1,,,unmapped,no safe ADE20K match
+skiboard,1,1,,,unmapped,no safe ADE20K match
+skull decoration,1,1,,,unmapped,no safe ADE20K match
+sliding door,4,5,door,14,rule,token rule -> door
+slipers,1,1,,,unmapped,no safe ADE20K match
+slipper,6,10,,,unmapped,no safe ADE20K match
+slippers,12,18,,,unmapped,no safe ADE20K match
+small broom and dustpan,1,2,,,unmapped,no safe ADE20K match
+small cabinet,1,3,cabinet,10,rule,token rule -> cabinet
+small dresser,1,1,,,unmapped,no safe ADE20K match
+smoke alarm,16,18,,,unmapped,no safe ADE20K match
+smoke alarme,2,2,,,unmapped,no safe ADE20K match
+smoke dector,1,1,,,unmapped,no safe ADE20K match
+smoke detecotr,1,1,,,unmapped,no safe ADE20K match
+smoke detector,66,85,,,unmapped,no safe ADE20K match
+snack bag,1,1,,,unmapped,no safe ADE20K match
+sneakers,1,1,,,unmapped,no safe ADE20K match
+soap,6,7,,,unmapped,no safe ADE20K match
+soap bottle,4,6,,,unmapped,no safe ADE20K match
+soap dish,2,2,,,unmapped,no safe ADE20K match
+soap dispenser,16,19,,,unmapped,no safe ADE20K match
+soap dispenser/toiletry,1,1,,,unmapped,no safe ADE20K match
+soap tray,1,1,,,unmapped,no safe ADE20K match
+socket,25,74,,,unmapped,no safe ADE20K match
+socket box,1,1,,,unmapped,no safe ADE20K match
+socket extender,4,6,,,unmapped,no safe ADE20K match
+socks,1,1,,,unmapped,no safe ADE20K match
+sofa,30,39,sofa,23,exact,exact normalized match
+sofa chair,5,7,chair,19,rule,token rule -> chair
+sofa cushion,1,2,,,unmapped,no safe ADE20K match
+sofa footrest,1,1,,,unmapped,no safe ADE20K match
+softbox,1,3,,,unmapped,no safe ADE20K match
+speaker,24,43,,,unmapped,no safe ADE20K match
+speakers,1,1,,,unmapped,no safe ADE20K match
+spice jars,1,2,,,unmapped,no safe ADE20K match
+spice rack,3,3,,,unmapped,no safe ADE20K match
+spices,1,2,,,unmapped,no safe ADE20K match
+split,70,120,,,ignored,meta / non-semantic label
+sponge,16,21,,,unmapped,no safe ADE20K match
+sponge cloth,1,1,,,unmapped,no safe ADE20K match
+spool,1,1,,,unmapped,no safe ADE20K match
+spoon,1,1,,,unmapped,no safe ADE20K match
+spray,1,1,,,unmapped,no safe ADE20K match
+spray bottle,16,20,,,unmapped,no safe ADE20K match
+spray can,1,1,,,unmapped,no safe ADE20K match
+squeegee,2,2,,,unmapped,no safe ADE20K match
+stabilizer,1,1,,,unmapped,no safe ADE20K match
+stack of paper,2,6,,,unmapped,no safe ADE20K match
+stair,1,1,,,unmapped,no safe ADE20K match
+staircase railing,2,2,,,unmapped,no safe ADE20K match
+stairs,3,3,stairs,53,exact,exact normalized match
+stamp,1,1,,,unmapped,no safe ADE20K match
+stand,1,2,,,unmapped,no safe ADE20K match
+standing banner,1,2,,,unmapped,no safe ADE20K match
+standing clothes hanger,2,2,,,unmapped,no safe ADE20K match
+standing fan,2,2,,,unmapped,no safe ADE20K match
+standing lamp,16,19,lamp,36,alias,manual alias: standing lamp -> lamp
+standing poster,2,2,,,unmapped,no safe ADE20K match
+stapler,11,13,,,unmapped,no safe ADE20K match
+star,1,1,,,unmapped,no safe ADE20K match
+stationaries,1,1,,,unmapped,no safe ADE20K match
+statue,2,2,,,unmapped,no safe ADE20K match
+steel beam,1,4,,,unmapped,no safe ADE20K match
+step,1,2,step,121,exact,exact normalized match
+step stool,3,3,,,unmapped,no safe ADE20K match
+stereo box,1,1,,,unmapped,no safe ADE20K match
+stick,1,1,,,unmapped,no safe ADE20K match
+sticker,1,1,,,unmapped,no safe ADE20K match
+sticky note,2,3,,,unmapped,no safe ADE20K match
+sticky notes,5,5,,,unmapped,no safe ADE20K match
+stool,14,49,stool,110,exact,exact normalized match
+storage,1,1,,,unmapped,no safe ADE20K match
+storage basket,1,1,,,unmapped,no safe ADE20K match
+storage bin,2,7,,,unmapped,no safe ADE20K match
+storage box,5,8,,,unmapped,no safe ADE20K match
+storage cabinet,66,111,cabinet,10,alias,manual alias: storage cabinet -> cabinet
+storage rack,16,27,,,unmapped,no safe ADE20K match
+storage shelf,2,2,shelf,24,rule,token rule -> shelf
+storage trolley,1,1,,,unmapped,no safe ADE20K match
+stove,27,27,stove,71,exact,exact normalized match
+stove top,1,1,,,unmapped,no safe ADE20K match
+straws,1,1,,,unmapped,no safe ADE20K match
+structure,53,125,,,ignored,meta / non-semantic label
+studio light,1,2,,,unmapped,no safe ADE20K match
+stuffed animal,4,6,,,unmapped,no safe ADE20K match
+stuffed toy,2,4,,,unmapped,no safe ADE20K match
+suit,1,1,,,unmapped,no safe ADE20K match
+suit bag,1,1,,,unmapped,no safe ADE20K match
+suit cover,2,2,,,unmapped,no safe ADE20K match
+suitcase,29,50,,,unmapped,no safe ADE20K match
+surfboard,1,2,,,unmapped,no safe ADE20K match
+surfsuit,1,2,,,unmapped,no safe ADE20K match
+surveillance camera,1,1,,,unmapped,no safe ADE20K match
+suspended ceiling,1,9,,,unmapped,no safe ADE20K match
+sweater,1,1,,,unmapped,no safe ADE20K match
+switch,24,44,,,unmapped,no safe ADE20K match
+switch board,1,1,,,unmapped,no safe ADE20K match
+switchboard cabinet,1,1,cabinet,10,rule,token rule -> cabinet
+switches,1,1,,,unmapped,no safe ADE20K match
+table,177,495,table,15,exact,exact normalized match
+table clock,1,1,,,unmapped,no safe ADE20K match
+table cloth,2,4,,,unmapped,no safe ADE20K match
+table fan,1,1,,,unmapped,no safe ADE20K match
+table football,1,1,,,unmapped,no safe ADE20K match
+table lamp,33,40,lamp,36,rule,token rule -> lamp
+table mat,1,1,,,unmapped,no safe ADE20K match
+tablecloth,5,7,,,unmapped,no safe ADE20K match
+tablet,6,7,,,unmapped,no safe ADE20K match
+tabletop,1,1,,,unmapped,no safe ADE20K match
+tap,23,28,,,unmapped,no safe ADE20K match
+tape,2,5,,,unmapped,no safe ADE20K match
+tape dispenser,3,4,,,unmapped,no safe ADE20K match
+tea box,1,1,,,unmapped,no safe ADE20K match
+tea packets,1,1,,,unmapped,no safe ADE20K match
+tea pot,3,5,,,unmapped,no safe ADE20K match
+teapot,2,3,,,unmapped,no safe ADE20K match
+teddy bear,2,2,,,unmapped,no safe ADE20K match
+teleephone,1,1,,,unmapped,no safe ADE20K match
+telephone,85,108,,,unmapped,no safe ADE20K match
+telephone stand,1,1,,,unmapped,no safe ADE20K match
+television,3,3,,,unmapped,no safe ADE20K match
+television stand,1,1,,,unmapped,no safe ADE20K match
+tennis rackets,1,1,,,unmapped,no safe ADE20K match
+termostat,1,2,,,unmapped,no safe ADE20K match
+thermostat,11,13,,,unmapped,no safe ADE20K match
+tile wall,2,4,,,unmapped,no safe ADE20K match
+tissu box,1,1,,,unmapped,no safe ADE20K match
+tissue,4,5,,,unmapped,no safe ADE20K match
+tissue box,18,22,,,unmapped,no safe ADE20K match
+tissue paper,3,3,,,unmapped,no safe ADE20K match
+tissue roll,1,1,,,unmapped,no safe ADE20K match
+tissues,2,2,,,unmapped,no safe ADE20K match
+toaster,7,7,,,unmapped,no safe ADE20K match
+toaster oven,3,3,,,unmapped,no safe ADE20K match
+toilet,32,33,toilet,65,exact,exact normalized match
+toilet brush,15,16,,,unmapped,no safe ADE20K match
+toilet brush bowl,1,1,,,unmapped,no safe ADE20K match
+toilet brush holder,1,1,,,unmapped,no safe ADE20K match
+toilet flush,1,1,,,unmapped,no safe ADE20K match
+toilet flush button,7,7,,,unmapped,no safe ADE20K match
+toilet paper,30,64,,,unmapped,no safe ADE20K match
+toilet paper dispenser,3,4,,,unmapped,no safe ADE20K match
+toilet paper dispensor,1,1,,,unmapped,no safe ADE20K match
+toilet paper holder,11,11,,,unmapped,no safe ADE20K match
+toilet paper rolls,2,2,,,unmapped,no safe ADE20K match
+toilet papers,1,2,,,unmapped,no safe ADE20K match
+toilet seat,1,1,,,unmapped,no safe ADE20K match
+toilet tank,1,1,,,unmapped,no safe ADE20K match
+toiletries,1,1,,,unmapped,no safe ADE20K match
+toiletry,2,3,,,unmapped,no safe ADE20K match
+tool,1,1,,,unmapped,no safe ADE20K match
+tool box,3,3,,,unmapped,no safe ADE20K match
+tool rack,1,1,,,unmapped,no safe ADE20K match
+toolbox,5,7,,,unmapped,no safe ADE20K match
+tools,2,7,,,unmapped,no safe ADE20K match
+tooth brush,1,2,,,unmapped,no safe ADE20K match
+tooth paste,1,1,,,unmapped,no safe ADE20K match
+toothbrush,6,6,,,unmapped,no safe ADE20K match
+toothbrush case,1,1,,,unmapped,no safe ADE20K match
+toothbrush holder,2,2,,,unmapped,no safe ADE20K match
+toothpaste,2,2,,,unmapped,no safe ADE20K match
+tote bag,6,7,,,unmapped,no safe ADE20K match
+towel,50,118,towel,81,exact,exact normalized match
+towel holder,1,1,,,unmapped,no safe ADE20K match
+towel rack,1,1,,,unmapped,no safe ADE20K match
+towel radiator,2,2,,,unmapped,no safe ADE20K match
+towels,1,1,towel,81,plural,plural -> singular exact match
+tower fan,2,2,,,unmapped,no safe ADE20K match
+tower pc,1,1,,,unmapped,no safe ADE20K match
+tower ventilator,1,1,,,unmapped,no safe ADE20K match
+toy,5,6,,,unmapped,no safe ADE20K match
+toy car,1,3,,,unmapped,no safe ADE20K match
+toys,1,1,,,unmapped,no safe ADE20K match
+training equipment,1,2,,,unmapped,no safe ADE20K match
+trash bag,2,3,ashcan,138,rule,token rule -> ashcan
+trash bin,62,92,ashcan,138,alias,manual alias: trash bin -> ashcan
+trash can,85,143,ashcan,138,alias,manual alias: trash can -> ashcan
+trashcan,4,6,ashcan,138,rule,token rule -> ashcan
+tray,11,14,tray,137,exact,exact normalized match
+treadmill,2,2,,,unmapped,no safe ADE20K match
+tree trunk,1,1,,,unmapped,no safe ADE20K match
+tripod,9,13,,,unmapped,no safe ADE20K match
+trivet,2,2,,,unmapped,no safe ADE20K match
+trolley,6,8,,,unmapped,no safe ADE20K match
+tshirt,1,1,,,unmapped,no safe ADE20K match
+tub,1,1,,,unmapped,no safe ADE20K match
+tube,15,34,,,unmapped,no safe ADE20K match
+tumbler,1,1,,,unmapped,no safe ADE20K match
+tupperware,2,3,,,unmapped,no safe ADE20K match
+tv,31,33,television receiver,89,alias,manual alias: tv -> television receiver
+tv board,1,1,,,unmapped,no safe ADE20K match
+tv console,1,1,,,unmapped,no safe ADE20K match
+tv receiver,1,1,,,unmapped,no safe ADE20K match
+tv remote,5,5,,,unmapped,no safe ADE20K match
+tv screen,1,1,,,unmapped,no safe ADE20K match
+tv stand,9,9,,,unmapped,no safe ADE20K match
+ukulele,1,1,,,unmapped,no safe ADE20K match
+umbrella,17,24,,,unmapped,no safe ADE20K match
+upholstered bench,1,1,,,unmapped,no safe ADE20K match
+urinal,1,3,,,unmapped,no safe ADE20K match
+utensil holder,2,2,,,unmapped,no safe ADE20K match
+utensils,1,1,,,unmapped,no safe ADE20K match
+vacum cleaner,1,2,,,unmapped,no safe ADE20K match
+vacuum cleaner,9,9,,,unmapped,no safe ADE20K match
+vase,12,28,vase,135,exact,exact normalized match
+vent,4,14,,,unmapped,no safe ADE20K match
+ventilation,3,4,,,unmapped,no safe ADE20K match
+ventilation duct,1,1,,,unmapped,no safe ADE20K match
+ventilation pipe,2,4,,,unmapped,no safe ADE20K match
+ventilator,4,9,,,unmapped,no safe ADE20K match
+vertical blinds,1,1,,,unmapped,no safe ADE20K match
+vice,1,2,,,unmapped,no safe ADE20K match
+voltage stabilizer,1,1,,,unmapped,no safe ADE20K match
+wall,228,1868,wall,0,exact,exact normalized match
+wall beam,2,2,,,unmapped,no safe ADE20K match
+wall calendar,1,1,,,unmapped,no safe ADE20K match
+wall clock,12,14,,,unmapped,no safe ADE20K match
+wall coat hanger,2,2,,,unmapped,no safe ADE20K match
+wall handle,1,1,,,unmapped,no safe ADE20K match
+wall hanger,7,7,,,unmapped,no safe ADE20K match
+wall hanging,2,2,,,unmapped,no safe ADE20K match
+wall hook,3,3,,,unmapped,no safe ADE20K match
+wall hooks,9,11,,,unmapped,no safe ADE20K match
+wall intercom,2,2,,,unmapped,no safe ADE20K match
+wall lamp,12,16,lamp,36,alias,manual alias: wall lamp -> lamp
+wall light,1,1,,,unmapped,no safe ADE20K match
+wall mounted telephone,1,1,,,unmapped,no safe ADE20K match
+wall outlet,6,9,,,unmapped,no safe ADE20K match
+wall painting,2,2,,,unmapped,no safe ADE20K match
+wall paper,1,1,,,unmapped,no safe ADE20K match
+wall shelf,1,1,shelf,24,rule,token rule -> shelf
+wall speaker,1,1,,,unmapped,no safe ADE20K match
+wall strip,1,6,,,unmapped,no safe ADE20K match
+wallet,2,2,,,unmapped,no safe ADE20K match
+wardrobe,20,24,wardrobe,35,exact,exact normalized match
+washing machine,5,5,,,unmapped,no safe ADE20K match
+wastebin,1,1,,,unmapped,no safe ADE20K match
+water bottle,6,9,,,unmapped,no safe ADE20K match
+water bubbler,1,1,,,unmapped,no safe ADE20K match
+water can,1,1,,,unmapped,no safe ADE20K match
+water dispenser,1,1,,,unmapped,no safe ADE20K match
+water filter,7,8,,,unmapped,no safe ADE20K match
+water filter jug,1,1,,,unmapped,no safe ADE20K match
+water heater,1,1,,,unmapped,no safe ADE20K match
+water jug,4,4,,,unmapped,no safe ADE20K match
+water kettle,1,1,,,unmapped,no safe ADE20K match
+water meter,1,2,,,unmapped,no safe ADE20K match
+water pipe,1,1,,,unmapped,no safe ADE20K match
+watering bucket,1,1,,,unmapped,no safe ADE20K match
+watering can,6,6,,,unmapped,no safe ADE20K match
+watering pot,1,1,,,unmapped,no safe ADE20K match
+web cam,1,2,,,unmapped,no safe ADE20K match
+webcam,8,16,,,unmapped,no safe ADE20K match
+weighing scale,2,2,,,unmapped,no safe ADE20K match
+weight plate,1,5,,,unmapped,no safe ADE20K match
+weight scale,1,1,,,unmapped,no safe ADE20K match
+weights,1,1,,,unmapped,no safe ADE20K match
+wet tissue,1,1,,,unmapped,no safe ADE20K match
+wheel,1,1,,,unmapped,no safe ADE20K match
+wheelchair,1,1,chair,19,rule,token rule -> chair
+white board,1,1,,,unmapped,no safe ADE20K match
+whiteboard,114,178,bulletin board,144,alias,manual alias: whiteboard -> bulletin board
+whiteboard eraser,47,60,,,unmapped,no safe ADE20K match
+whiteboard marker,7,14,,,unmapped,no safe ADE20K match
+whiteboard mount,1,2,,,unmapped,no safe ADE20K match
+whiteboard pens,1,2,,,unmapped,no safe ADE20K match
+whiteboard stand,1,2,,,unmapped,no safe ADE20K match
+whitwboard eraser,1,1,,,unmapped,no safe ADE20K match
+whteboard eraser,1,1,,,unmapped,no safe ADE20K match
+whtieboard eraser,1,1,,,unmapped,no safe ADE20K match
+wifi router,3,3,,,unmapped,no safe ADE20K match
+window,159,490,windowpane,8,alias,manual alias: window -> windowpane
+window blind,2,13,windowpane,8,rule,token rule -> windowpane
+window blinds,1,1,windowpane,8,rule,token rule -> windowpane
+window frame,104,178,windowpane,8,alias,manual alias: window frame -> windowpane
+window handle,2,4,windowpane,8,rule,token rule -> windowpane
+window head,2,2,windowpane,8,rule,token rule -> windowpane
+window sill,51,59,windowpane,8,alias,manual alias: window sill -> windowpane
+windowframe,12,15,windowpane,8,alias,manual alias: windowframe -> windowpane
+windowsill,68,85,windowpane,8,alias,manual alias: windowsill -> windowpane
+wine bottle,1,1,,,unmapped,no safe ADE20K match
+wine rack,1,1,,,unmapped,no safe ADE20K match
+wire,1,1,,,unmapped,no safe ADE20K match
+wire hider,1,1,,,unmapped,no safe ADE20K match
+wire tray,3,6,,,unmapped,no safe ADE20K match
+wireless charger,1,1,,,unmapped,no safe ADE20K match
+wireless headphones,1,1,,,unmapped,no safe ADE20K match
+wlan router,1,1,,,unmapped,no safe ADE20K match
+wood panel,1,1,,,unmapped,no safe ADE20K match
+wood planks,2,2,,,unmapped,no safe ADE20K match
+wood stick,1,1,,,unmapped,no safe ADE20K match
+wooden board,1,1,,,unmapped,no safe ADE20K match
+wooden crate,1,1,,,unmapped,no safe ADE20K match
+wooden frame,2,9,,,unmapped,no safe ADE20K match
+wooden plan,1,1,,,unmapped,no safe ADE20K match
+wooden planks,1,2,,,unmapped,no safe ADE20K match
+wooden shelves,1,1,,,unmapped,no safe ADE20K match
+woofer,1,1,,,unmapped,no safe ADE20K match
+work bench,2,2,,,unmapped,no safe ADE20K match
+work station,1,1,,,unmapped,no safe ADE20K match
+yoga mat,9,10,,,unmapped,no safe ADE20K match

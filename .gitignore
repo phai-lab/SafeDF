@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+.pytest_cache/
+
+# Local environments
+.venv/
+venv/
+.env
+.vscode/
+.idea/
+
+# Model weights and generated artifacts
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pkl
+
+# Datasets, outputs, logs
+logs/
+output/
+outputs/
+datasets/
+external_videos/
+ral_videos/
+rgb_preview_videos/
+segformer_results/
+mask2former_results/
+
+# Large video/archive/intermediate experiment files
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.zip
+*.npz
+
+# OS/editor
+.DS_Store

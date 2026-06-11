@@ -1,0 +1,31 @@
+\begin{table*}[t]
+\centering
+\caption{\small Equal-time comparison on the six-scene benchmark. MP denotes matched progress.}
+\label{tab:sim_3methods}
+\begin{tabular}{lcccc}
+\toprule
+Method & Computation Time (s) $\downarrow$ & Progress $\uparrow$ & MP Clearance (m) $\uparrow$ & MP Collision $\downarrow$ \\
+\midrule
+SaferSplat & 0.149 & 0.360 & 0.101 & 0.216 \\
+Ours (ESDF) & 0.002 & 0.697 & 0.106 & 0.218 \\
+Ours (Semantic ESDF) & 0.002 & 0.603 & 0.108 & 0.200 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[t]
+\centering
+\caption{\small Risk-group ablation on the six-scene benchmark. MP denotes matched progress.}
+\label{tab:risk_ablation}
+\begin{tabular}{lccccccc}
+\toprule
+Risk & N & \multicolumn{3}{c}{Ours (ESDF)} & \multicolumn{3}{c}{Ours (Semantic ESDF)} \\
+\cmidrule(lr){3-5} \cmidrule(lr){6-8}
+Group & & Progress $\uparrow$ & MP Clear. $\uparrow$ & MP Coll. $\downarrow$ & Progress $\uparrow$ & MP Clear. $\uparrow$ & MP Coll. $\downarrow$ \\
+\midrule
+High & 164 & 0.669 & 0.128 & 0.146 & 0.534 & 0.134 & 0.116 \\
+Mid & 161 & 0.777 & 0.092 & 0.248 & 0.631 & 0.093 & 0.224 \\
+Low & 161 & 0.647 & 0.098 & 0.261 & 0.647 & 0.098 & 0.261 \\
+\bottomrule
+\end{tabular}
+\end{table*}

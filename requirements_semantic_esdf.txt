@@ -1,0 +1,11 @@
+opencv-python
+scipy
+scikit-image
+open3d
+viser
+Pillow
+PyYAML
+matplotlib
+imageio
+ffmpeg-python
+pyzmq
