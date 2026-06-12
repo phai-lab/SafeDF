@@ -242,17 +242,6 @@ python scripts/export_scene_specific_semantic_risk_configs.py \
   --scene-id bc03d88fc3
 ```
 
-The released CSV tables can be checked with:
-
-```bash
-conda activate safedf
-cd ${MAST3R_ROOT}
-
-python scripts/verify_released_table_csv.py \
-  --table-dir repro/table_metrics \
-  --ours-only
-```
-
 ## Hardware Streaming
 For LIMO-style deployment, SafeDF can read RGB frames from a ZMQ bridge and optionally publish joystick velocity commands:
 
